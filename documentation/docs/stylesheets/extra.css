@@ -1,0 +1,46 @@
+/* Custom styles for Agent documentation */
+
+/* Hero section */
+.md-content .md-typeset h1 {
+    font-weight: 700;
+}
+
+/* Code block styling */
+.md-typeset pre > code {
+    font-size: 0.85em;
+}
+
+/* Button styling */
+.md-typeset .md-button {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Table improvements */
+.md-typeset table:not([class]) {
+    font-size: 0.85em;
+}
+
+/* Admonition customization */
+.md-typeset .admonition.tip {
+    border-color: #00bfa5;
+}
+
+.md-typeset .admonition.warning {
+    border-color: #ff9100;
+}
+
+/* ASCII diagram styling */
+.md-typeset pre:has(code:not([class*="language-"])) {
+    background-color: var(--md-code-bg-color);
+}
+
+/* Navigation improvements */
+.md-nav__link {
+    font-size: 0.75rem;
+}
+
+/* Footer styling */
+.md-footer-meta {
+    background-color: var(--md-default-bg-color);
+}

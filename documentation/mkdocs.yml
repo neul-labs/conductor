@@ -1,0 +1,168 @@
+# Project information
+site_name: Agent
+site_description: Multi-Agent CLI Orchestrator - Coordinate AI coding agents for complex development tasks
+site_author: Dipankar Sarkar
+site_url: https://dipankarsarkar.github.io/agent/
+
+# Repository
+repo_name: dipankarsarkar/agent
+repo_url: https://github.com/dipankarsarkar/agent
+edit_uri: edit/main/documentation/docs/
+
+# Copyright
+copyright: Copyright &copy; 2026 Dipankar Sarkar
+
+# Configuration
+theme:
+  name: material
+  language: en
+
+  # Color palette
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  # Features
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+    - content.action.edit
+    - content.action.view
+    - toc.follow
+
+  # Icons
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/robot
+
+  # Font
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+# Extensions
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+  # Python Markdown Extensions
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: dipankarsarkar
+      repo: agent
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Navigation
+nav:
+  - Home: index.md
+  - Getting Started:
+      - getting-started/index.md
+      - Installation: getting-started/installation.md
+      - Quick Start: getting-started/quickstart.md
+  - Core Concepts:
+      - concepts/index.md
+      - Agents: concepts/agents.md
+      - Tasks: concepts/tasks.md
+      - Results: concepts/results.md
+      - Supervisor: concepts/supervisor.md
+  - CLI Reference:
+      - cli/index.md
+      - agent run: cli/run.md
+      - agent orchestrate: cli/orchestrate.md
+      - agent agents: cli/agents.md
+  - Python API:
+      - api/index.md
+      - Agent: api/agent.md
+      - Task: api/task.md
+      - Result: api/result.md
+      - Supervisor: api/supervisor.md
+  - Orchestration Patterns:
+      - patterns/index.md
+      - Sequential: patterns/sequential.md
+      - Parallel: patterns/parallel.md
+      - Consensus: patterns/consensus.md
+      - Handoff: patterns/handoff.md
+  - Agents:
+      - agents/index.md
+      - Claude: agents/claude.md
+      - Codex: agents/codex.md
+      - Custom Agents: agents/custom.md
+  - Configuration: configuration.md
+  - Contributing: contributing.md
+  - Roadmap: roadmap.md
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/dipankarsarkar/agent
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/agent/
+
+# CSS customization
+extra_css:
+  - stylesheets/extra.css
