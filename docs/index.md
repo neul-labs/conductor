@@ -1,24 +1,24 @@
-# Agent Documentation
+# Conductor Documentation
 
-Welcome to the Agent documentation - the Multi-Agent CLI Orchestrator.
+Welcome to the Conductor documentation - the Multi-Agent CLI Orchestrator.
 
-## What is Agent?
+## What is Conductor?
 
-Agent is a Python framework that orchestrates AI coding agents (Claude Code, Codex, Gemini CLI, Aider, Continue) to collaborate on complex development tasks.
+Conductor is a Python framework that orchestrates AI coding agents (Claude Code, Codex, Gemini CLI, Aider, Continue) to collaborate on complex development tasks.
 
-Unlike simple wrappers, Agent treats these CLI tools as **agents that perform actions**:
+Unlike simple wrappers, Conductor treats these CLI tools as **agents that perform actions**:
 - Editing files in your codebase
 - Executing shell commands
 - Making git commits
 - Using MCP tools
 
-Agent acts as a **supervisor** - delegating tasks, running agents in parallel, and aggregating results.
+Conductor acts as a **supervisor** - delegating tasks, running agents in parallel, and aggregating results.
 
 ## Quick Start
 
 ```bash
 # Install
-pip install agent
+pip install neul-conductor
 
 # Run a task
 agent run "Fix the bug in auth.py"
@@ -94,5 +94,5 @@ print(f"Success: {result.success}")
 
 ## Getting Help
 
-- [GitHub Issues](https://github.com/anthropics/agent/issues)
+- [GitHub Issues](https://github.com/neul-labs/conductor/issues)
 - [Roadmap](roadmap.md)
