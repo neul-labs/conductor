@@ -1,23 +1,23 @@
-# Agent
+# Conductor
 
-[![PyPI version](https://img.shields.io/pypi/v/agent.svg)](https://pypi.org/project/agent/)
+[![PyPI version](https://img.shields.io/pypi/v/neul-conductor.svg)](https://pypi.org/project/neul-conductor/)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
 **Orchestrate AI coding agents like a conductor leads an orchestra.**
 
-Agent coordinates Claude, Codex, Gemini, and other AI CLI tools to tackle complex development tasks through intelligent delegation, parallel execution, and result aggregation.
+Conductor coordinates Claude, Codex, Gemini, and other AI CLI tools to tackle complex development tasks through intelligent delegation, parallel execution, and result aggregation.
 
-[Documentation](documentation/) | [Quick Start](#quick-start) | [API Reference](documentation/docs/api/)
+[Repository](https://github.com/neul-labs/conductor) | [Neul Labs](https://www.neullabs.com) | [Quick Start](#quick-start)
 
 ---
 
-## Why Agent?
+## Why Conductor?
 
 AI CLI tools like Claude Code and Codex are not just text generators - they are **agents that perform actions**: editing files, running commands, making commits, and using tools.
 
-Agent acts as a **supervisor** that:
+Conductor acts as a **supervisor** that:
 
 - **Delegates** tasks to the best-suited agent
 - **Orchestrates** complex workflows across multiple agents
@@ -45,8 +45,10 @@ Agent acts as a **supervisor** that:
 ### Installation
 
 ```bash
-pip install agent
+pip install neul-conductor
 ```
+
+> Installs the `agent` command-line tool.
 
 ### Run Your First Task
 
@@ -197,3 +199,18 @@ Inspired by:
 
 - [Datasette LLM](https://llm.datasette.io/) - Plugin architecture
 - [Microsoft Agent Orchestration Patterns](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/ai-agent-design-patterns)
+
+---
+
+## Part of the Neul Labs toolchain
+
+Conductor is part of the Neul Labs orchestration toolchain:
+
+| Project | Description |
+|---------|-------------|
+| [brat](https://github.com/neul-labs/brat) | Multi-agent harness for AI coding tools — crash-safe state, parallel execution. |
+| [ringlet](https://github.com/neul-labs/ringlet) | One CLI to rule all your coding agents. |
+| [fastworker](https://github.com/neul-labs/fastworker) | Background tasks in Python with zero infrastructure — no Redis, no RabbitMQ. |
+| [m9m](https://github.com/neul-labs/m9m) | The n8n alternative without the bugs — one Go binary. |
+
+Learn more at [neullabs.com](https://www.neullabs.com).
