@@ -14,8 +14,8 @@ Thank you for your interest in contributing to Agent! This guide will help you g
 
 ```bash
 # Clone the repository
-git clone https://github.com/dipankarsarkar/agent.git
-cd agent
+git clone https://github.com/neul-labs/conductor.git
+cd conductor
 
 # Create virtual environment
 python -m venv venv

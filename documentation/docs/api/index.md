@@ -5,7 +5,7 @@ Agent provides a full Python API for programmatic control over agent orchestrati
 ## Installation
 
 ```bash
-pip install agent
+pip install neul-conductor
 ```
 
 ## Quick Start

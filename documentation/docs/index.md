@@ -5,7 +5,7 @@
 Agent coordinates Claude, Codex, Gemini, and other AI CLI tools to tackle complex development tasks through intelligent delegation, parallel execution, and result aggregation.
 
 [Get Started](getting-started/index.md){ .md-button .md-button--primary }
-[View on GitHub](https://github.com/dipankarsarkar/agent){ .md-button }
+[View on GitHub](https://github.com/neul-labs/conductor){ .md-button }
 
 ---
 

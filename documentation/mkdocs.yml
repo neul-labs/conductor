@@ -1,16 +1,16 @@
 # Project information
-site_name: Agent
+site_name: Conductor
 site_description: Multi-Agent CLI Orchestrator - Coordinate AI coding agents for complex development tasks
-site_author: Dipankar Sarkar
-site_url: https://dipankarsarkar.github.io/agent/
+site_author: Neul Labs
+site_url: https://docs.neullabs.com/conductor/
 
 # Repository
-repo_name: dipankarsarkar/agent
-repo_url: https://github.com/dipankarsarkar/agent
+repo_name: neul-labs/conductor
+repo_url: https://github.com/neul-labs/conductor
 edit_uri: edit/main/documentation/docs/
 
 # Copyright
-copyright: Copyright &copy; 2026 Dipankar Sarkar
+copyright: Copyright &copy; 2026 Neul Labs
 
 # Configuration
 theme:
@@ -99,8 +99,8 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: dipankarsarkar
-      repo: agent
+      user: neul-labs
+      repo: conductor
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences:
@@ -157,9 +157,9 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/dipankarsarkar/agent
+      link: https://github.com/neul-labs/conductor
     - icon: fontawesome/brands/python
-      link: https://pypi.org/project/agent/
+      link: https://pypi.org/project/neul-conductor/
 
 # CSS customization
 extra_css:

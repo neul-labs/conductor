@@ -6,7 +6,7 @@ This guide walks you through your first multi-agent workflow in under 5 minutes.
 
 Ensure you have:
 
-- Agent installed (`pip install agent`)
+- Agent installed (`pip install neul-conductor`)
 - At least one AI CLI tool installed (Claude, Codex, or Gemini)
 
 ## Your First Command

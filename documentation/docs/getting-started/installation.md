@@ -13,14 +13,14 @@ This guide covers installing Agent and the AI CLI tools it orchestrates.
 ### From PyPI (Recommended)
 
 ```bash
-pip install agent
+pip install neul-conductor
 ```
 
 ### From Source
 
 ```bash
-git clone https://github.com/dipankarsarkar/agent.git
-cd agent
+git clone https://github.com/neul-labs/conductor.git
+cd conductor
 pip install -e .
 ```
 

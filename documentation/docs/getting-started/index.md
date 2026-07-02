@@ -19,7 +19,7 @@ Before you begin, ensure you have:
 ## Quick Install
 
 ```bash
-pip install agent
+pip install neul-conductor
 ```
 
 ## Verify Installation
